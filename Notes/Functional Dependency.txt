@@ -1,0 +1,11 @@
+**Functional Dependency Notes**
+-------------------------------
+
+- FD can be determined by checking two conditions:
+
+--> FD : X --> Y  
+    if   t1.x == t2.x
+    then t1.y == t2.y
+
+--> if you found that column X is all unique and doesn't have duplicates then, X & Y are functionally dependent and no need to check for the second condition.
+
