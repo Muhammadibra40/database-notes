@@ -1,0 +1,41 @@
+The WHERE clause applies the condition to individual rows before the rows are summarized into groups by the GROUP BY clause. However, the HAVING clause applies the condition to the groups after the rows are grouped into groups.
+
+Therefore, it is important to note that the HAVING clause is applied after whereas the WHERE clause is applied before the GROUP BY clause.
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
+
+ - UNION merges the results of two SELECT statements. Important: UNION statements only return UNIQUE values.
+	Every SELECT statement within UNION must have the same number of columns
+	The columns must also have similar data types
+	The columns in every SELECT statement must also be in the same order
+- UNION ALL is very similar to UNION, but with one exception: UNION ALL returns all data from all tables, no matter if it is a duplicate or not
+
+- MINUS is a little bit different. Let's say we want to see only book titles that are not also movie titles. We need to "minus" everything from the BOOKS table that is also in the MOVIES table. The MINUS set operator is designed for this type of task.
+
+SELECT * FROM BOOKS
+MINUS
+SELECT * FROM MOVIES
+
+- But what should we do if we need to know what two queries have in common? --> This is the main role of the INTERSECT operator.
+
+SELECT * FROM BOOKS
+INTERSECT
+SELECT * FROM MOVIES
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
+
+DELETE is a DML(Data Manipulation Language) command and is used when we specify the row (tuple) that we want to remove or delete from the table or relation. The DELETE command can contain a WHERE clause.
+
+If the WHERE clause is used with the DELETE command, then it removes or deletes only those rows (tuples) that satisfy the condition; otherwise, by default, it removes all the tuples (rows) from the table. Remember that DELETE logs the row deletions.
+	
+Less efficient for large tables as we have to manually specify each and every condition in case of deleting the whole table data.
+
+DELETE FROM TableName
+
+WHERE condition;
+
+TRUNCATE is a DDL(Data Definition Language) command and is used to delete all the rows or tuples from a table. Unlike the DELETE command, the TRUNCATE command does not contain a WHERE clause.
+
+In the TRUNCATE command, the transaction log for each deleted data page is not recorded. Unlike the DELETE command, the TRUNCATE command is fast. We cannot roll back the data after using the TRUNCATE command. 
+
+Efficiency depends on the size of the object which is being dropped.
