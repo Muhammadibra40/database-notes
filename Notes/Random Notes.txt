@@ -22,7 +22,7 @@ SELECT * FROM BOOKS
 INTERSECT
 SELECT * FROM MOVIES
 
-#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
+#------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
 
 DELETE is a DML(Data Manipulation Language) command and is used when we specify the row (tuple) that we want to remove or delete from the table or relation. The DELETE command can contain a WHERE clause.
 
@@ -39,3 +39,17 @@ TRUNCATE is a DDL(Data Definition Language) command and is used to delete all th
 In the TRUNCATE command, the transaction log for each deleted data page is not recorded. Unlike the DELETE command, the TRUNCATE command is fast. We cannot roll back the data after using the TRUNCATE command. 
 
 Efficiency depends on the size of the object which is being dropped.
+
+#------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
+
+SQL CAST Function
+-----------------
+
+The CAST function in SQL is used to convert a value from one data type to another. It's a part of the SQL standard and is supported by many relational database management systems.
+
+CAST(expression AS data_type);
+
+Example:
+--------
+
+SELECT CAST(25.65 AS int);
