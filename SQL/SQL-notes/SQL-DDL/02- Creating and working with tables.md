@@ -15,6 +15,8 @@ CREATE TABLE GENDER
 	
 ```
 --> ***Foreign key references***
+-  foreign keys used to enforce DB integrity.
+-  By allowing only values in the FK_Column that match the values in the PK_Column in the referenced table.
 ```
 ALTER TABLE FK_TBL_NAME ADD CONSTRAINT constraint_name
 FORIEGN KEY FK_COLUMN REFRENCES PK_TBL_NAME(PK_COLUMN)
