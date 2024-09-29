@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL-DDL/01- Creating altering and dropping a database.md",
+                "file": "SQL-DDL/02- Creating and working with tables.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL-DDL/01- Creating altering and dropping a database.md",
+                "file": "SQL-DDL/02- Creating and working with tables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL-DDL/01- Creating altering and dropping a database.md",
+                "file": "SQL-DDL/02- Creating and working with tables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL-DDL/01- Creating altering and dropping a database.md"
+                "file": "SQL-DDL/02- Creating and working with tables.md"
               }
             }
           }
@@ -146,9 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1b081dcb76788d5b",
+  "active": "f8ea4ca4ec40ff05",
   "lastOpenFiles": [
     "Welcome.md",
+    "SQL-DDL/02- Creating and working with tables.md",
     "SQL-DDL/01- Creating altering and dropping a database.md",
     "SQL-DDL"
   ]
