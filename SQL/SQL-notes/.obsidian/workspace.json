@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL-DDL/02- Creating and working with tables.md",
+                "file": "SQL-DML/01- SELECT Statement.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "239ab54b460adcee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL-DML/02- GROUP BY.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "db086ba84a10a00c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL-DML/03- Joins.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL-DDL/02- Creating and working with tables.md",
+                "file": "SQL-DML/03- Joins.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL-DDL/02- Creating and working with tables.md",
+                "file": "SQL-DML/03- Joins.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL-DDL/02- Creating and working with tables.md"
+                "file": "SQL-DML/03- Joins.md"
               }
             }
           }
@@ -146,10 +171,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f8ea4ca4ec40ff05",
+  "active": "db086ba84a10a00c",
   "lastOpenFiles": [
-    "Welcome.md",
+    "SQL-DML/02- GROUP BY.md",
+    "SQL-DML/03- Joins.md",
+    "SQL-DML/01- SELECT Statement.md",
     "SQL-DDL/02- Creating and working with tables.md",
+    "SQL-DML",
+    "Welcome.md",
     "SQL-DDL/01- Creating altering and dropping a database.md",
     "SQL-DDL"
   ]

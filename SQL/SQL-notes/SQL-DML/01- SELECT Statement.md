@@ -1,0 +1,11 @@
+
+--> ***Fully qualified name of the table***
+-  Can execute a query from any database context
+  --> [database_name].[schema_name].[tbl_name]
+  --> WHERE Clause for filtering
+  --> IN operator
+  --> BETWEEN operator
+  --> LIKE: getting a specific pattern in a string (%, _, [... ] any character within the brackets, [ ^ ..] not any a=character within the brackets)
+  --> OR / AND: joining multiple conditions
+  --> ORDER BY: sorting the result by specific column or more (ASC, DESC)
+  --> TOP number_of_rows column1, column2, ..  / TOP number_of_rows */ TOP percentage number PERCENT : if the table is so large that i need to see only some of the records.
