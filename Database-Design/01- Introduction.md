@@ -60,12 +60,17 @@ Turning business requirements into representation of Entities and their attribut
 ---
 ***Types of Keys***
 
-1- Candidate Key.
-2- Primary Key.
-3- Foreign Key.
-4- Composite Key.
-5- Partial Key.
-6- Alternate Key.
-7- Super Key.
+Key: One or more attributes that can uniquely a row (tuple) of data.
+
+1- Super Key (All options that can be a PK).
+2- Candidate Key (Minimal Super Keys - simple or composite).
+3- Primary Key.
+4- Alternate Key (Non chosen PK).
+5- Foreign Key.
+6- Composite Key.
+7- Partial Key.
 8- Surrogate Key.
 9- Natural Key.
+
+---
+
